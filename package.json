@@ -2,9 +2,8 @@
   "name": "isi-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
   "author": "Helio <heliofilho1307@hotmail.com>",
   "license": "MIT",
@@ -17,5 +16,11 @@
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.0",
     "typescript": "^4.6.3"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
