@@ -16,5 +16,6 @@
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true
   },
+  "include": ["dist"],
   "exclude": ["node_modules"]
 }
